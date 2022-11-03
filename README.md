@@ -10,5 +10,6 @@ public static void DrawButtonSamples()
   settings.buttonPressedTexture = new Texture(/*standart sfml texture*/);
   settings.buttonNormalTexture = new Texture(/*standart sfml texture*/);
   Button button = new Button(settings);
+  window.Draw(button);
 }
 ```
